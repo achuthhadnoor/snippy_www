@@ -21,7 +21,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.main_heading}>
           <div style={{ display: 'flex', justifyContent: 'center', margin: '2em .2em',alignItems: 'center' }}>
-            <Logo /><h1 className={styles.title}>Snippy</h1>
+            <span style={{background:'#314ed8',borderRadius:'1em',margin:'10px 20px'}}><Logo /></span><h1 className={styles.title}>Snippy</h1>
           </div>
           <h1 className={styles.title}>
             Log your tasks to one place from anywhere
