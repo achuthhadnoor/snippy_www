@@ -10,7 +10,7 @@ export default function Home() {
         <title>Snippy | Instantly save todos,bookmarks,screenshots</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header style={{zIndex:2, display: 'flex', maxWidth: '1080px', margin: 'auto 0', width: '100%', alignItems: 'center' }}>
+      <header style={{ zIndex: 2, display: 'flex', maxWidth: '1080px', margin: 'auto 0', width: '100%', alignItems: 'center' }}>
         <span style={{ padding: '10px' }}><Logo /></span>
         <span style={{ flex: 1 }} />
         <nav style={{ display: 'flex', fontSize: '1.2em' }}>
@@ -20,7 +20,7 @@ export default function Home() {
       </header>
       <main className={styles.main}>
         <div className={styles.main_heading}>
-          <div style={{ display: 'flex', justifyContent: 'center', margin: '2em .2em', alignItems: 'center' }}> 
+          <div style={{ display: 'flex', justifyContent: 'center', margin: '2em .2em', alignItems: 'center' }}>
             <span style={{ background: '#ffffff26', borderRadius: '1em', margin: '10px 20px' }}><Logo /></span><h1 className={styles.title}>Snippy</h1>
           </div>
           <h1 className={styles.title}>
@@ -29,12 +29,16 @@ export default function Home() {
           <h2 className={styles.description}>
             Snippy allows you to <i>save and collaborate</i> on  your <b><i>tasks, bookmarks and screenshots</i></b> from anywhere on the internet
             </h2>
-          <div>
-            <button>asdasd</button>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <a href="/"> <button className={styles.primary_btn}>Get your handle </button></a>
+            <button className={styles.secondary_btn}> Join our discord </button>
           </div>
         </div>
       </main>
-
+      <div style={{display:'flex'}}>
+        <div className={styles.mobile_mock}></div>
+        <div className={styles.desktop_mock}></div>
+      </div>
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
