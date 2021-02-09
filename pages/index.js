@@ -10,7 +10,7 @@ export default function Home() {
         <title>Snippy | Instantly save todos,bookmarks,screenshots</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header style={{ display: 'flex', maxWidth: '1080px', margin: 'auto 0', width: '100%', alignItems: 'center' }}>
+      <header style={{zIndex:2, display: 'flex', maxWidth: '1080px', margin: 'auto 0', width: '100%', alignItems: 'center' }}>
         <span style={{ padding: '10px' }}><Logo /></span>
         <span style={{ flex: 1 }} />
         <nav style={{ display: 'flex', fontSize: '1.2em' }}>
@@ -21,7 +21,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.main_heading}>
           <div style={{ display: 'flex', justifyContent: 'center', margin: '2em .2em', alignItems: 'center' }}> 
-            <span style={{ background: '#fbfbfb', borderRadius: '1em', margin: '10px 20px' }}><Logo /></span><h1 className={styles.title}>Snippy</h1>
+            <span style={{ background: '#ffffff26', borderRadius: '1em', margin: '10px 20px' }}><Logo /></span><h1 className={styles.title}>Snippy</h1>
           </div>
           <h1 className={styles.title}>
             Log your information to one place from anywhere on internet
