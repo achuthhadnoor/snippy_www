@@ -8,7 +8,6 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Snippy | Instantly save todos,bookmarks,screenshots</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <header style={{ zIndex: 2, display: 'flex', maxWidth: '1080px', margin: 'auto 0', width: '100%', alignItems: 'center' }}>
         <span style={{ padding: '10px' }}><Logo /></span>
@@ -35,7 +34,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <div style={{display:'flex'}}>
+      <div className={styles.mocks}>
         <div className={styles.mobile_mock}></div>
         <div className={styles.desktop_mock}></div>
       </div>
