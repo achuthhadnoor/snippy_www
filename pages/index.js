@@ -10,30 +10,30 @@ export default function Home() {
         <title>Snippy | Instantly save todos,bookmarks,screenshots</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header style={{ display: 'flex', maxWidth: '800px', margin: 'auto 0',width:'100%',alignItems:'center' }}>
-        <span style={{padding:'10px'}}><Logo /></span>
-        <span style={{flex:1}}/>
-        <nav style={{display:'flex',fontSize:'1.2em'}}>
-          <Link href="/about"><a style={{padding:'20px'}}>About</a></Link>
-          <Link href="/download"><a  style={{padding:'20px'}}>Download</a></Link>
+      <header style={{ display: 'flex', maxWidth: '1080px', margin: 'auto 0', width: '100%', alignItems: 'center' }}>
+        <span style={{ padding: '10px' }}><Logo /></span>
+        <span style={{ flex: 1 }} />
+        <nav style={{ display: 'flex', fontSize: '1.2em' }}>
+          <Link href="/about"><a style={{ padding: '20px' }}>About</a></Link>
+          <Link href="/download"><a style={{ padding: '20px' }}>Download</a></Link>
         </nav>
       </header>
       <main className={styles.main}>
         <div className={styles.main_heading}>
-          <div style={{ display: 'flex', justifyContent: 'center', margin: '2em .2em',alignItems: 'center' }}>
-            <span style={{background:'#ffcc99',borderRadius:'1em',margin:'10px 20px'}}><Logo /></span><h1 className={styles.title}>Snippy</h1>
+          <div style={{ display: 'flex', justifyContent: 'center', margin: '2em .2em', alignItems: 'center' }}> 
+            <span style={{ background: '#fbfbfb', borderRadius: '1em', margin: '10px 20px' }}><Logo /></span><h1 className={styles.title}>Snippy</h1>
           </div>
           <h1 className={styles.title}>
-            Log your tasks to one place from anywhere
+            Log your information to one place from anywhere on internet
             </h1>
-
-          <p className={styles.description}>
+          <h2 className={styles.description}>
             Snippy allows you to <i>save and collaborate</i> on  your <b><i>tasks, bookmarks and screenshots</i></b> from anywhere on the internet
-            </p>
-
+            </h2>
+          <div>
+            <button>asdasd</button>
+          </div>
         </div>
-
-       </main>
+      </main>
 
       <footer className={styles.footer}>
         <a
@@ -41,7 +41,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Logo/>
+          <Logo />
         </a>
       </footer>
     </div>
