@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Snippy | Instantly save todos,bookmarks,screenshots</title>
       </Head>
-      <header style={{ zIndex: 2, display: 'flex', maxWidth: '1080px', margin: '0 auto', width: '100%', alignItems: 'center' }}>
+      <header style={{ zIndex: 2, display: 'flex', maxWidth: '1080px', width: '100%', alignItems: 'center' }}>
         <span style={{ padding: '10px' }}><Logo /></span>
         <span style={{ flex: 1 }} />
         <nav style={{ display: 'flex', fontSize: '1.2em' }}>
