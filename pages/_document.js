@@ -18,6 +18,7 @@ class MyDocument extends Document {
         <meta name="msapplication-config" content="/fav/browserconfig.xml" />
         <meta name="msapplication-TileColor" content="#eee" />
         <meta name="theme-color" content="#eee"></meta>
+        <script async src="https://cdn.splitbee.io/sb.js"></script>
         </Head>
         <body>
           <Main />
