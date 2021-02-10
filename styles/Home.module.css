@@ -197,4 +197,10 @@
     height: 150px;
     width: 200px;
   }
+.container::before,.container::after{
+  height: 150px;
+  width: 150px;
+  filter: blur(110px);
+    }
+
 }
